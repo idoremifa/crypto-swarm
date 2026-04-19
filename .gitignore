@@ -1,0 +1,35 @@
+.DS_Store
+
+# 파이썬
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pyright/
+.coverage
+htmlcov/
+
+# 로컬 가상환경
+.venv/
+
+# 비밀 값
+.env
+.env.*
+!.env.example
+
+# 로컬 운영 설정값
+configs/*.yaml
+!configs/*.example.yaml
+!configs/README.md
+
+# 로컬 실행 데이터
+logs/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# 로컬 편집기 파일
+.idea/
+.vscode/
